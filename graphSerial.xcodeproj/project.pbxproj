@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250B9D63147E142300BEC872 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250B9D62147E142300BEC872 /* IOKit.framework */; };
+		250B9D6F147E247000BEC872 /* qGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 250B9D6E147E247000BEC872 /* qGraph.m */; };
+		250B9D77147EC98D00BEC872 /* SFCircularBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 250B9D76147EC98D00BEC872 /* SFCircularBuffer.mm */; };
+		25E4FB40147E0DA0003E1081 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E4FB3F147E0DA0003E1081 /* Cocoa.framework */; };
+		25E4FB4A147E0DA0003E1081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25E4FB48147E0DA0003E1081 /* InfoPlist.strings */; };
+		25E4FB4C147E0DA0003E1081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4FB4B147E0DA0003E1081 /* main.m */; };
+		25E4FB50147E0DA0003E1081 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25E4FB4E147E0DA0003E1081 /* Credits.rtf */; };
+		25E4FB53147E0DA0003E1081 /* toAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4FB52147E0DA0003E1081 /* toAppDelegate.m */; };
+		25E4FB56147E0DA1003E1081 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E4FB54147E0DA1003E1081 /* MainMenu.xib */; };
+		25E4FB5E147E0DC1003E1081 /* rawhid.c in Sources */ = {isa = PBXBuildFile; fileRef = 25E4FB5C147E0DC1003E1081 /* rawhid.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		250B9D62147E142300BEC872 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		250B9D6D147E247000BEC872 /* qGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qGraph.h; sourceTree = "<group>"; };
+		250B9D6E147E247000BEC872 /* qGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qGraph.m; sourceTree = "<group>"; };
+		250B9D75147EC98D00BEC872 /* SFCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCircularBuffer.h; sourceTree = "<group>"; };
+		250B9D76147EC98D00BEC872 /* SFCircularBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SFCircularBuffer.mm; sourceTree = "<group>"; };
+		25E4FB3B147E0DA0003E1081 /* graphSerial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graphSerial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E4FB3F147E0DA0003E1081 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25E4FB42147E0DA0003E1081 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25E4FB43147E0DA0003E1081 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25E4FB44147E0DA0003E1081 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25E4FB47147E0DA0003E1081 /* graphSerial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "graphSerial-Info.plist"; sourceTree = "<group>"; };
+		25E4FB49147E0DA0003E1081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25E4FB4B147E0DA0003E1081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25E4FB4D147E0DA0003E1081 /* graphSerial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "graphSerial-Prefix.pch"; sourceTree = "<group>"; };
+		25E4FB4F147E0DA0003E1081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25E4FB51147E0DA0003E1081 /* toAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = toAppDelegate.h; sourceTree = "<group>"; };
+		25E4FB52147E0DA0003E1081 /* toAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toAppDelegate.m; sourceTree = "<group>"; };
+		25E4FB55147E0DA1003E1081 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		25E4FB5C147E0DC1003E1081 /* rawhid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rawhid.c; sourceTree = "<group>"; };
+		25E4FB5D147E0DC1003E1081 /* rawhid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rawhid.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E4FB38147E0DA0003E1081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250B9D63147E142300BEC872 /* IOKit.framework in Frameworks */,
+				25E4FB40147E0DA0003E1081 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E4FB30147E0D9F003E1081 = {
+			isa = PBXGroup;
+			children = (
+				250B9D62147E142300BEC872 /* IOKit.framework */,
+				25E4FB45147E0DA0003E1081 /* graphSerial */,
+				25E4FB3E147E0DA0003E1081 /* Frameworks */,
+				25E4FB3C147E0DA0003E1081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E4FB3C147E0DA0003E1081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E4FB3B147E0DA0003E1081 /* graphSerial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E4FB3E147E0DA0003E1081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E4FB3F147E0DA0003E1081 /* Cocoa.framework */,
+				25E4FB41147E0DA0003E1081 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25E4FB41147E0DA0003E1081 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E4FB42147E0DA0003E1081 /* AppKit.framework */,
+				25E4FB43147E0DA0003E1081 /* CoreData.framework */,
+				25E4FB44147E0DA0003E1081 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25E4FB45147E0DA0003E1081 /* graphSerial */ = {
+			isa = PBXGroup;
+			children = (
+				25E4FB51147E0DA0003E1081 /* toAppDelegate.h */,
+				25E4FB52147E0DA0003E1081 /* toAppDelegate.m */,
+				25E4FB54147E0DA1003E1081 /* MainMenu.xib */,
+				25E4FB46147E0DA0003E1081 /* Supporting Files */,
+				250B9D6D147E247000BEC872 /* qGraph.h */,
+				250B9D6E147E247000BEC872 /* qGraph.m */,
+				250B9D75147EC98D00BEC872 /* SFCircularBuffer.h */,
+				250B9D76147EC98D00BEC872 /* SFCircularBuffer.mm */,
+			);
+			path = graphSerial;
+			sourceTree = "<group>";
+		};
+		25E4FB46147E0DA0003E1081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E4FB5C147E0DC1003E1081 /* rawhid.c */,
+				25E4FB5D147E0DC1003E1081 /* rawhid.h */,
+				25E4FB47147E0DA0003E1081 /* graphSerial-Info.plist */,
+				25E4FB48147E0DA0003E1081 /* InfoPlist.strings */,
+				25E4FB4B147E0DA0003E1081 /* main.m */,
+				25E4FB4D147E0DA0003E1081 /* graphSerial-Prefix.pch */,
+				25E4FB4E147E0DA0003E1081 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E4FB3A147E0DA0003E1081 /* graphSerial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E4FB59147E0DA1003E1081 /* Build configuration list for PBXNativeTarget "graphSerial" */;
+			buildPhases = (
+				25E4FB37147E0DA0003E1081 /* Sources */,
+				25E4FB38147E0DA0003E1081 /* Frameworks */,
+				25E4FB39147E0DA0003E1081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = graphSerial;
+			productName = graphSerial;
+			productReference = 25E4FB3B147E0DA0003E1081 /* graphSerial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E4FB32147E0D9F003E1081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = t413.com;
+			};
+			buildConfigurationList = 25E4FB35147E0D9F003E1081 /* Build configuration list for PBXProject "graphSerial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25E4FB30147E0D9F003E1081;
+			productRefGroup = 25E4FB3C147E0DA0003E1081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E4FB3A147E0DA0003E1081 /* graphSerial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E4FB39147E0DA0003E1081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4FB4A147E0DA0003E1081 /* InfoPlist.strings in Resources */,
+				25E4FB50147E0DA0003E1081 /* Credits.rtf in Resources */,
+				25E4FB56147E0DA1003E1081 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E4FB37147E0DA0003E1081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4FB4C147E0DA0003E1081 /* main.m in Sources */,
+				25E4FB53147E0DA0003E1081 /* toAppDelegate.m in Sources */,
+				25E4FB5E147E0DC1003E1081 /* rawhid.c in Sources */,
+				250B9D6F147E247000BEC872 /* qGraph.m in Sources */,
+				250B9D77147EC98D00BEC872 /* SFCircularBuffer.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25E4FB48147E0DA0003E1081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E4FB49147E0DA0003E1081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25E4FB4E147E0DA0003E1081 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E4FB4F147E0DA0003E1081 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25E4FB54147E0DA1003E1081 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E4FB55147E0DA1003E1081 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25E4FB57147E0DA1003E1081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25E4FB58147E0DA1003E1081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25E4FB5A147E0DA1003E1081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "graphSerial/graphSerial-Prefix.pch";
+				INFOPLIST_FILE = "graphSerial/graphSerial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25E4FB5B147E0DA1003E1081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "graphSerial/graphSerial-Prefix.pch";
+				INFOPLIST_FILE = "graphSerial/graphSerial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E4FB35147E0D9F003E1081 /* Build configuration list for PBXProject "graphSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E4FB57147E0DA1003E1081 /* Debug */,
+				25E4FB58147E0DA1003E1081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E4FB59147E0DA1003E1081 /* Build configuration list for PBXNativeTarget "graphSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E4FB5A147E0DA1003E1081 /* Debug */,
+				25E4FB5B147E0DA1003E1081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E4FB32147E0D9F003E1081 /* Project object */;
+}
